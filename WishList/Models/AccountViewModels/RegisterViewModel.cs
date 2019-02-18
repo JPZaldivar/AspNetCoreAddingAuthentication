@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace WishList.Models.AccountsViewModels
+namespace WishList.Models.AccountViewModels
 {
     public class RegisterViewModel
     {
@@ -20,6 +20,5 @@ namespace WishList.Models.AccountsViewModels
         [DataType(DataType.Password)]
         [Compare("Password")]
         public string ConfirmPassword { get; set; }
-
     }
 }
